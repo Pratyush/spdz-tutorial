@@ -1,11 +1,18 @@
-a = sint(1000)
-b = sint(100)
-
-result = a > b;
+print_ln("***********************************************************");
+print_ln("***********************************************************");
+print_ln("")
+print_ln("Player 0, please provide your input:");
+a = sint.get_private_input_from(0)
 
 print_ln("***********************************************************");
 print_ln("***********************************************************");
 print_ln("")
+print_ln("Player 1, please provide your input:");
+b = sint.get_private_input_from(1)
+
+result = a > b;
+
+println("")
 print_ln("P0 is richer than P1: %s", result.reveal());
 print_ln("")
 print_ln("***********************************************************");

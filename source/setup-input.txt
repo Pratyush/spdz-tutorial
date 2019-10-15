@@ -1,0 +1,12 @@
+4
+RootCA
+2
+127.0.0.1
+Player0.crt
+127.0.0.1
+Player1.crt
+N
+N
+1
+0
+64

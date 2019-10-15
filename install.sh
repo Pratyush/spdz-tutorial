@@ -29,11 +29,13 @@ done
 
 # copy examples to correct locations
 cd /root/SCALE-MAMBA
-for EX in millionaires
+for EX in millionaires millionaires-with-io
 do
   mkdir Programs/$EX
   cp /root/source/$EX.mpc Programs/$EX/
 done
+
+./Setup.x < source/setup-input.txt
 
 # add simple syntax highlighting
 cd
