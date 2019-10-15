@@ -14,8 +14,12 @@ First, Install Docker:
 
 Please make a post on Piazza if you're having trouble installing the container.
 
-## Setup Container
+## Setup container
 
+Clone this repo:
+```
+$ git clone https://github.com/Pratyush/spdz-tutorial/ && cd spdz-tutorial
+```
 Create a Docker image. This will take a few minutes. You only have to do this once.
 ```
 $ docker build -t scalemamba .
