@@ -35,7 +35,7 @@ do
   cp /root/source/$EX.mpc Programs/$EX/
 done
 
-./Setup.x < source/setup-input.txt
+./Setup.x < /root/source/setup-input.txt
 
 # add simple syntax highlighting
 cd
