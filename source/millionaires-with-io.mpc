@@ -12,7 +12,7 @@ b = sint.get_private_input_from(1)
 
 result = a > b;
 
-println("")
+print_ln("")
 print_ln("P0 is richer than P1: %s", result.reveal());
 print_ln("")
 print_ln("***********************************************************");
