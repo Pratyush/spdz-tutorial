@@ -18,7 +18,7 @@ Please make a post on Piazza if you're having trouble installing the container.
 
 Clone this repo:
 ```
-$ git clone https://github.com/Pratyush/spdz-tutorial/ && cd spdz-tutorial
+$ git clone https://github.com/Pratyush/spdz-tutorial.git && cd spdz-tutorial
 ```
 Create a Docker image. This will take a few minutes. You only have to do this once.
 ```
