@@ -7,7 +7,7 @@ a = sint.get_private_input_from(0)
 print_ln("***********************************************************");
 print_ln("***********************************************************");
 print_ln("")
-print_ln("Player 1, please provide your input:");
+print_ln("Player 1, please provide your input (in the other tmux pane)");
 b = sint.get_private_input_from(1)
 
 result = a > b;
