@@ -45,6 +45,7 @@ Below we describe the steps to securely execute the `millionaires` program; the 
 ### compilation and execution
 Compile the directory containing the program you wish to run. 
 ```
+$ cd SCALE-MAMBA
 $ ./compile.py Programs/millionaires
 ```
 Then, open `tmux` and create a horizontal split via the shortcut `Ctrl-b "`.
